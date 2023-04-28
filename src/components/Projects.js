@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import quitter from "../assets/images/quitter.png";
 import bookshelf from "../assets/images/bookshelf.png";
 import catchoftheday from "../assets/images/catchoftheday.png";
+import schittyapi from "../assets/images/schittyapi.png";
 import colorSharp2 from "../assets/images/color-sharp2.png";
 
 export const Projects = () => {
@@ -11,17 +12,26 @@ export const Projects = () => {
       title: "Quitter",
       description: "A social media app for people who want to quit smoking.",
       imgUrl: quitter,
+      category: "Python",
     },
     {
       title: "The Beguiling Bookshelf",
       description:
         "A book recommendation website with books from my very own library.",
       imgUrl: bookshelf,
+      category: "React",
     },
     {
       title: "Catch of the Day",
       description: "An e-commerce site for a seafood market.",
       imgUrl: catchoftheday,
+      category: "React",
+    },
+    {
+      title: "Schitty API",
+      description: "A delightful and easy-to-use RESTful API that serves up random quotes and character information from the beloved TV show Schitt's Creek, bringing a touch of wit and humor to your applications.",
+      imgUrl: schittyapi,
+      category: "API",
     },
   ];
 
@@ -29,7 +39,7 @@ export const Projects = () => {
     <section className="project" id="project">
       <Container>
         <Row>
-          <Col>
+          <Col size={12}>
             <h2>Projects</h2>
             <p>
               Welcome to the projects section of my portfolio page! Here you'll
@@ -44,35 +54,49 @@ export const Projects = () => {
               questions!
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" defaultActiveKey="/home">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Quitter</Nav.Link>
+                  <Nav.Link eventKey="first">React</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">The Beguiling Bookshelf</Nav.Link>
+                  <Nav.Link eventKey="second">Python</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Catch of the Day</Nav.Link>
+                  <Nav.Link eventKey="third">API</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>
-                    {
-                      projects.map((project, index) => {
-                        return (
-                          <ProjectCard
-                            key={index}
-                            {...project}
-                          />
-                        )
-                      })
-                    }
+                    {projects
+                      .filter((project) => project.category === "React")
+                      .map((project, index) => {
+                        return <ProjectCard key={index} {...project} />;
+                      })}
                   </Row>
-
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <Row>
+                    {projects
+                      .filter((project) => project.category === "Python")
+                      .map((project, index) => {
+                        return <ProjectCard key={index} {...project} />;
+                      })}
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                <Row>
+                    {projects
+                      .filter((project) => project.category === "API")
+                      .map((project, index) => {
+                        return <ProjectCard key={index} {...project} />;
+                      })}
+                  </Row>
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
