@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/alexa-whitney/alexa-portfolio/static/css/main.d3a1b91b.css",
-    "main.js": "/alexa-whitney/alexa-portfolio/static/js/main.d0a5e110.js",
+    "main.js": "/alexa-whitney/alexa-portfolio/static/js/main.e351b5af.js",
     "static/js/787.33c326b7.chunk.js": "/alexa-whitney/alexa-portfolio/static/js/787.33c326b7.chunk.js",
     "static/media/bookshelf.png": "/alexa-whitney/alexa-portfolio/static/media/bookshelf.023b38f025ad214554b9.png",
-    "static/media/schittyapi.png": "/alexa-whitney/alexa-portfolio/static/media/schittyapi.c98646313b59120ffcb2.png",
     "static/media/color-sharp.png": "/alexa-whitney/alexa-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/alexa-whitney/alexa-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/quitter.png": "/alexa-whitney/alexa-portfolio/static/media/quitter.4493b3e76957b219318b.png",
+    "static/media/schittyapi.png": "/alexa-whitney/alexa-portfolio/static/media/schittyapi.9339f43d82bb024a7532.png",
     "static/media/catchoftheday.png": "/alexa-whitney/alexa-portfolio/static/media/catchoftheday.66090adc620d5d6f4fba.png",
     "static/media/banner-bg.png": "/alexa-whitney/alexa-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/alexa-whitney/alexa-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
@@ -28,11 +28,11 @@
     "index.html": "/alexa-whitney/alexa-portfolio/index.html",
     "static/media/nav-icon1.svg": "/alexa-whitney/alexa-portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "main.d3a1b91b.css.map": "/alexa-whitney/alexa-portfolio/static/css/main.d3a1b91b.css.map",
-    "main.d0a5e110.js.map": "/alexa-whitney/alexa-portfolio/static/js/main.d0a5e110.js.map",
+    "main.e351b5af.js.map": "/alexa-whitney/alexa-portfolio/static/js/main.e351b5af.js.map",
     "787.33c326b7.chunk.js.map": "/alexa-whitney/alexa-portfolio/static/js/787.33c326b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3a1b91b.css",
-    "static/js/main.d0a5e110.js"
+    "static/js/main.e351b5af.js"
   ]
 }
