@@ -92,7 +92,7 @@ export const MyNavBar = () => {
                 <img src={navIcon2} alt="GithHub" />
               </a>
             </div>
-            <button ClassName="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => document.getElementById('mailchimp-form').scrollIntoView({ behavior: 'smooth' })}>
               <span>Let's Connect</span>
             </button>
           </span>
