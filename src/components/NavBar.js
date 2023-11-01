@@ -64,6 +64,15 @@ export const MyNavBar = () => {
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+              href="#libraries"
+              className={
+                activeLink === "libraries" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("libraries")}
+            >
+              Libraries
+            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
