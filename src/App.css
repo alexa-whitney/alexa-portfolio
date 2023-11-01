@@ -632,3 +632,60 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/************ Libraries CSS ************/
+
+.libraries-section {
+  padding: 80px 0;
+  background-color: #121212;
+}
+
+.libraries-section h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  border-bottom: 2px solid #4A2FBD; /* Purple color from the gradient used in other parts */
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.libraries-section a {
+  color: #4A2FBD; /* Purple color from the gradient used in other parts */
+  transition: color 0.3s ease;
+}
+
+.libraries-section a:hover {
+  color: #AA367C; /* Pink color from the gradient used in other parts */
+  text-decoration: none;
+}
+
+.libraries-section h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.libraries-section p {
+  color: #B8B8B8; /* Gray color from the previous styles */
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+/* NPM intro box styles */
+.libraries-section .npm-intro {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background for a subtle box */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent white border */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 30px; /* Space between the box and the libraries list */
+  color: #B8B8B8; /* Gray color to match the rest of the text */
+}
+
+.libraries-section .npm-intro p {
+  margin: 0;
+}
+

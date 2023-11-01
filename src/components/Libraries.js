@@ -32,6 +32,13 @@ const Libraries = () => {
                 <Row>
                     <Col size={12}>
                         <h2>NPM Libraries</h2>
+
+                        <div className="npm-intro">
+                            <p>
+                            NPM (Node Package Manager) is a package manager for the JavaScript runtime environment Node.js. Libraries in NPM are reusable pieces of code packaged up to be shared and used by other developers. These libraries can range from simple utility functions to complex frameworks. The NPM libraries listed below are ones I've created myself and proudly shared with the global developer community on npmjs.com. By both utilizing and contributing to NPM libraries in my projects, I'm able to leverage the work of the wider developer community. This ensures I use well-tested and optimized code, allowing me to focus on building unique features rather than reinventing the wheel.
+                            </p>
+                        </div>
+
                         {npmLibraries.map((library, index) => (
                             <div key={index}>
                                 <h3><a href={library.npmLink} target="_blank" rel="noopener noreferrer">{library.name}</a></h3>
