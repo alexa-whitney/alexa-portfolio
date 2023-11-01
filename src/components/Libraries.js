@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 
-const Libraries = () => {
+export const Libraries = () => {
     const npmLibraries = [
         {
             name: "piggytalk",
@@ -51,5 +51,3 @@ const Libraries = () => {
         </section>
     );
 }
-
-export default Libraries;
