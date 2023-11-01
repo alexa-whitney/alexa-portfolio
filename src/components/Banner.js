@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/images/header-img.svg";
 
 export const Banner = () => {
@@ -28,6 +27,7 @@ export const Banner = () => {
 
     // Return function to clear interval
     return () => { clearInterval(ticker) };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text])
 
   // Function to rotate through words
