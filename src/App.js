@@ -20,7 +20,7 @@ function App() {
       <Projects />
       <Libraries />
       <DataVisualizations />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );
