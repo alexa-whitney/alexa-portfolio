@@ -5,27 +5,27 @@ Welcome to the hub of my personal development journey, my very own corner on the
 ## Website Screenshots
 
 ### Home
-![Header Image](assets/images/new_page_screenshots/header.png)
+![Header Image](src/assets/images/new_page_screenshots/header.png)
 *The landing page sets the stage for the entire portfolio, greeting visitors with a clear message and a call to action.*
 
 ### Skills
-![Skills Image](assets/images/new_page_screenshots/skills.png)
+![Skills Image](src/assets/images/new_page_screenshots/skills.png)
 *My skills section highlights the technologies and tools I've learned.*
 
 ### Projects
-![Projects Image](assets/images/new_page_screenshots/projects.png)
+![Projects Image](src/assets/images/new_page_screenshots/projects.png)
 *A showcase of the projects I've completed, demonstrating my approach to problem-solving and design.*
 
 ### Libraries
-![Libraries Image](assets/images/new_page_screenshots/libraries.png)
+![Libraries Image](src/assets/images/new_page_screenshots/libraries.png)
 *An overview of some libraries that I have written and published to NPM.*
 
 ### Data Visualization
-![Data Viz Image](assets/images/new_page_screenshots/data_viz.png)
+![Data Viz Image](src/assets/images/new_page_screenshots/data_viz.png)
 *Data visualizations that represent my ability to translate data into meaningful insights.*
 
 ### Contact & Footer
-![Footer Image](assets/images/new_page_screenshots/footer.png)
+![Footer Image](src/assets/images/new_page_screenshots/footer.png)
 *The footer of my website includes a contact form and links to my professional profiles.*
 
 ## About
