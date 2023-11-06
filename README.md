@@ -58,10 +58,10 @@ To set up the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/alexa-whitney/portfolio.git
+git clone https://github.com/alexa-whitney/alexa-portfolio.git
 
 # Navigate to the project directory
-cd portfolio
+cd alexa-portfolio
 
 # Install dependencies
 npm install
